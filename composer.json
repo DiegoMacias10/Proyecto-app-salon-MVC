@@ -1,0 +1,23 @@
+{
+    "name": "diegomacias/proyecto_app-salon",
+    "description": "Proyecto PHP 8, MVC, SASS, SQL, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Fernando Macias Garcia",
+            "email": "fmg64360@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
